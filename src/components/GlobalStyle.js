@@ -19,7 +19,6 @@ export const GlobalStyle = createGlobalStyle`
   overflow-x: hidden;
   margin: 0 auto;
   transition: 1.5s;
-
 }
 
 main {
@@ -31,16 +30,11 @@ main {
   ${'' /* min-height: 100vh; */}
 }
 
-body::-webkit-scrollbar {
-  appearance: none;
-  background: #000;
-  width: 5px;
-}
-
 body::-webkit-scrollbar-thumb {
   background: white;
   border-radius: 5px;
 }
+
 section {
   margin-top: 50px;
 }

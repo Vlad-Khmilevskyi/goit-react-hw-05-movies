@@ -49,4 +49,5 @@ const Reviews = () => {
     </Wrapper>
   );
 };
+
 export default Reviews;

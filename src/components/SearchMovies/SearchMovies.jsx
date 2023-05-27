@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import { toast } from 'react-hot-toast';
 import { Button, Form, Input } from './SearchMovies.styled';
-// import { FiSearch } from 'react-icons/fi';
 
 const SearchMovies = ({ onSubmit }) => {
   const handleSubmit = e => {
@@ -21,10 +20,7 @@ const SearchMovies = ({ onSubmit }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Input name="query" type="text" placeholder="Search movies" />
-      <Button type="submit">
-        {/* <FiSearch size={20} color="#e4c3ad" /> */}
-        Search
-      </Button>
+      <Button type="submit">Search</Button>
     </Form>
   );
 };
